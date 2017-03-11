@@ -1,0 +1,44 @@
+﻿<!-- for FB like/share -->
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=534441243342482";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div style="margin-bottom:5px;">
+    <div id="header" style="background-image: url(/images/basmalaBg.png);">
+    <div style="display: inline-block; float: left; width: 178px; height: 74px; background-image: url(/images/basmala2.png)"></div>
+    <div style="display: inline-block; float: right; color: #ccc; font-family: Tahoma, Arial, sans-serif; font-size: 180%">//Word for Word study</div>
+    <span style="color:#ccc;font-family: Tahoma, Arial, sans-serif;font-size: 90%">In the name of Allah...</span>
+    <div style="color: #fff; font-weight:bold;  font-family: Tahoma, Arial, sans-serif; font-size: 220%">
+        <a href="/" style="color:#fff;text-decoration:none;font-size:80%">My<span style="color:white;text-decoration:none;font-size:110%">Quran</span>Study</a>
+             <img src="/images/logo_221bg_154_fb.png" width="1" /></div>
+
+</div>
+<div style="float: right; font-family: Tahoma, Arial, sans-serif; font-size: 100%; margin-right:20px">
+    <a href="/Articles/" style="color:#ff006e">(Articles)</a>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+
+    <%  if (Session["UserID"] == null) { %>   
+     <a href="/login.aspx"><b>log in</b></a>&nbsp;&nbsp;| 
+     <a href="/signup.aspx">sign up</a>&nbsp;&nbsp;||
+     <%  } else { %>  
+        <%  if (Session["UserEmail"].ToString().IndexOf("@_fb_") > -1) { %> 
+            <a href="/logout.aspx"><b>log out</b></a>&nbsp;&nbsp;| 
+        <%  } else { %>  
+            <a href="/login.aspx?lo=out"><b>log out</b></a>&nbsp;&nbsp;| 
+        <%  } %>  
+     <%  } %>  
+
+    <a href="/default.aspx">home</a>&nbsp;&nbsp;|
+    <a href="/study.aspx">my study</a>&nbsp;&nbsp;|
+    <a href="/mywords.aspx">my marked words</a>&nbsp;&nbsp;| 
+    <a href="/myverses.aspx">my marked verses</a>&nbsp;&nbsp;
+    <!--<a href="/quiz.aspx">quiz</a>&nbsp;&nbsp;&nbsp;-->
+     
+</div>
+</div>

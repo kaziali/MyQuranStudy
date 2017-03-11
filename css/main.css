@@ -1,0 +1,902 @@
+
+  @font-face {
+            font-family: "IndoPakArFont";
+            src: url("/font/PDMS_SALEEM_QURANFONTQESHIP_0.ttf"); /* TTF file for CSS3 browsers */
+        }
+
+  @font-face {
+            font-family: "_PDMS_Saleem_QuranFont8.eot";
+            font-style: normal;
+            font-weight: normal;
+            src: url("/font/PDMS_Saleem_QuranFont8.eot");
+            src: url("/font/PDMS_Saleem_QuranFont8.eot?#iefix") format("embedded-opentype"), 
+                url("/font/PDMS_SALEEM_QURANFONTQESHIP_0.ttf") format("truetype");
+        } 
+
+/*margin:TRBL*/
+body {
+    background-color:#ddd; 
+    margin: 0 0 0 0px;
+    padding: 0 0 0 0px;
+    border: none;
+    height:100%;
+
+   /* zzbackground: -webkit-linear-gradient(#009, white); --For Safari --
+    zzbackground: -o-linear-gradient(#009, white); -- For Opera 11.1 to 12.0 --
+    zzbackground: -moz-linear-gradient(#009, white);-- For Firefox 3.6 to 15 --
+    zzbackground: linear-gradient(red, white); -- Standard syntax --
+    */
+}
+	.h1{font-family:Verdana, Arial, Helvetica, sans-serif; color:#369;FONT-WEIGHT:bold;  font-size:16px; }
+
+.printerVer {
+    background-color:#c8fa9b;
+    margin: 5px 0 0 0px;
+    padding: 0 0 0 0px;
+    border: none;
+    height:100%;
+}
+
+a:hover {
+    color: #0094ff; text-decoration:none;
+}
+/***Default page starts */
+/***Default page*/
+ .divCont{
+    font-family: Tahoma, Arial, sans-serif; 
+    font-weight: normal;
+    font-size: 100%;
+    width: 90%;
+    /*zzheight: 100%;*/
+    padding: 10px 35px 35px 55px;
+    margin: 20px 0 10px 10px;
+    word-wrap:break-word  ;
+}
+/***Default page ends*/
+.divCont2{
+    font-family: Tahoma, Arial, sans-serif; 
+    font-weight: normal;
+    font-size: 100%;
+    width: 90%;
+    /*zzheight: 100%;*/
+    padding: 10px 35px 35px 55px;
+    margin: 5px 0 10px 20px;
+    word-wrap:break-word  ;
+}
+
+.header1 {
+    display: inline-block;
+    float: left;
+    width: 253px;
+    height: 74px;
+    background-image: url(/images/basmala2.png);
+}
+#header {
+    margin: 0 0 0 0px;
+    padding: 0 0 0 0px;
+    border: none;
+    width: 100%; height: 74px; 
+    /*zzbackground-image: url(/images/basmalaBg.png)*/
+}
+#footer {
+    /*zzbackground-color:#ccc; 
+    zzposition : absolute;*/
+    bottom : 0;
+    height : 30px;
+    width:98%;
+    margin-top : 40px;
+    border-top:1px solid #999;
+    padding:5px 5px 5px 10px; 
+    text-align:center; 
+    color:#333;
+    font-family: Tahoma, Arial, sans-serif; 
+    font-size: 90%;
+    display:table;
+}
+    #footer a {
+        color: #333;
+    }
+.Arabic {
+    margin: 0px;
+    padding: 0cm;
+    line-height: 200%;
+    font-family: "Tahoma, Arial";
+    font-style: normal;
+    font-weight: normal;
+    direction: rtl;
+}
+
+.ArabicIndoPak {
+            margin: 0;
+            padding: 0;
+            line-height: 200%;
+            font-family: "IndoPakArFont", "_PDMS_Saleem_QuranFont8.eot", Tahoma, Arial;
+            font-style: normal;
+            font-weight: normal;
+            direction: rtl;              
+    }
+
+.hoverme {
+    background-color: Silver;
+    cursor: pointer;
+}
+
+.font1 {
+    font-family: "Microsoft Sans Serif","Tahoma","Arial Unicode MS", "Arial", sans-serif;
+    color:#0094ff;
+    font-size: 100%;
+}
+
+#fbContinue   {
+    font-size: 120%; 
+}
+#fbContinue input {
+    color:#0094ff;
+    height:35px;
+    margin-top:5px;
+    margin-bottom:15px;
+    font-size: 100%;
+}
+
+div.mainLeftEnTitle {
+    font-family: "Traditional Arabic", Tahoma, Arial;
+    font-weight: normal;
+    font-size:140%;
+    width: 74%; /**was 900px*/
+    height: 100%;
+     
+    padding: 30px 15px 0px 5px;
+    margin: 1px 0 0 45px;
+    word-wrap:break-word  ;
+    display: inline-block;
+    float: left;
+}
+div.generalNoteTitle {
+    font-family: "Traditional Arabic", Tahoma, Arial;
+    font-weight: normal;
+    font-size:120%;
+    zzwidth: 74%; /**was 900px*/
+    zzheight: 100%;
+     
+    padding: 0px 15px 0px 5px;
+    margin: 1px 0 0 5px;
+    word-wrap:break-word  ;
+    display: inline-block;
+    float: left;
+}
+div.mainLeftEn {
+    background-color:#fff;/**#deeefa**/
+    font-family: "Traditional Arabic", Tahoma, Arial;
+    font-weight: normal;
+    font-size:110%;
+    direction: LTR;
+    width: 74%; /**was 900px*/
+    height: 100%;
+     border: 4px solid #999; 
+    padding: 5px 15px 5px 5px;
+    margin: 1px 0 0 45px;
+    word-wrap:break-word  ;
+    display: inline-block;
+    float: left;
+
+ 
+    /*border:15px solid transparent;
+    -webkit-border-image:url(frame1.png) 30 30 round; / * Safari 5 * /
+    -o-border-image:url(frame1.png) 30 30 round; / * Opera 10.5-12.1 * /
+    border-image:url(frame1.jpg) 30 30 round;*/
+}
+
+div.mainLeftUr {
+    background-color:#fff;/**#deeefa**/
+    font-family: Arial, sans-serif, Verdana, Tahoma;
+    font-weight: normal;
+    font-size:150%;
+    direction: RTL;
+    width: 74%; /**was 900px*/
+    height: 100%;
+    border: 4px solid #999; 
+    padding: 5px 15px 5px 5px;
+    margin: 1px 0 0 45px;
+    word-wrap:break-word  ;
+    display: inline-block;
+    float: left; 
+}
+
+.pagenum
+{
+    background-color:#fff; 
+    font-family: Tahoma, Arial;
+    font-weight: normal;
+    font-size: 90%;
+    direction: RTL;
+    word-wrap:break-word  ;
+    text-align:center;
+}
+div.mainLeft{
+    /*zzfont-family: "Microsoft Sans Serif","Tahoma","Arial Unicode MS", "Arial", sans-serif;
+    zzfont-family: "Geeza Pro", "Nadeem", "Al Bayan", "DecoType Naskh", "DejaVu Serif", "STFangsong", "STHeiti", "STKaiti", "STSong", "AB AlBayan", "AB Geeza", "AB Kufi", "DecoType Naskh", "Aldhabi", "Andalus", "Sakkal Majalla", "Simplified Arabic", "Traditional Arabic", "Arabic Typesetting", "Urdu Typesetting", "Droid Naskh", "Droid Kufi", "Roboto", "Tahoma", "Times New Roman", "Arial", serif;
+    zzfont-family: "Nadeem", "Al Bayan", "DecoType Naskh", "DejaVu Serif"  ;*/
+    background-color:#fff;/**#deeefa**/
+    zzfont-family: /*"Traditional Arabic",*/ Tahoma, Arial;
+    font-weight: normal;
+    font-size: 200%;
+    direction: RTL;
+    width: 73%; /**was 900px*/
+    height: 100%;
+    /*zzborder: 2px solid #0094ff;*/
+    padding: 5px 15px 5px 5px;
+    margin: 1px 0 0 45px;
+    word-wrap:break-word  ;
+    display: inline-block;
+    float: left;
+
+
+/*Official Syntax*/
+	/*background-image: linear-gradient(to bottom,  rgba(111,90,0,0.5) 20%,rgba(255,174,0,0.5) 30%);*/
+
+	/*Browser Syntax*/
+	/*background-image: -moz-linear-gradient(top,  rgba(255,90,0,0.5) 0%, rgba(255,174,0,0.5) 100%);
+	background-image: -webkit-linear-gradient(top,  rgba(255,90,0,0.5) 0%,rgba(255,174,0,0.5) 100%);
+	background-image: -o-linear-gradient(top,  rgba(255,90,0,0.5) 0%,rgba(255,174,0,0.5) 100%);
+	background-image: -ms-linear-gradient(top,  rgba(255,90,0,0.5) 0%,rgba(255,174,0,0.5) 100%);*/
+    
+    border: 15px solid transparent;
+    -webkit-border-image:url(frame2.png) 30 30 round; /* Safari 5 */
+    -o-border-image:url(frame2.png) 30 30 round; /* Opera 10.5-12.1 */
+    border-image:url(frame2.jpg) 30 30 round;
+   }
+.verifyWordDiv{
+    border-bottom:1px solid #ccc;
+    font-size: 60%;
+    direction:ltr;
+}
+.spnFontVERIFY_UR{
+    font-family: Arial, sans-serif, Verdana, Tahoma;
+    font-weight: normal;
+    font-size:100%;
+    direction: RTL;
+}
+.spnFontVERIFY_BN{
+    font-family: Arial, sans-serif, Verdana, Tahoma;
+    font-weight: normal;
+    font-size:70%;
+    direction: LTR;
+}
+.verifyArabicFont{
+    font-size: 180%;
+    background-color:#eee;
+    /*zzmargin-bottom:4px;
+    zzwidth:120px !important;
+    zzfloat: left;*/
+
+}
+.EditTransCol{
+     
+    background-color:#fff !important;
+    width:50%;
+     
+    /*zzmargin-bottom:4px;
+    zzwidth:120px !important;
+    zzfloat: left;*/
+
+}
+#mainTbl tr td{
+background-color:#eee;
+}
+#mainTbl, #mainTbl tr td{
+    border-spacing: 0px;
+    border-collapse: separate;
+ 
+}
+ #mainTbl  tr td{
+     padding: 5px; 
+}
+ zztable { 
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+ #EditorYourWords,#EditorYourWords  tr td{
+     border:1px solid #666;
+     border-spacing: 0px;
+     border-collapse: separate;
+     background-color:white; padding: 5px; 
+ }
+ #EditorYourWords .headTr {
+     color:#b200ff;
+     font-weight:bold;
+ }
+
+ .header1stTr {
+     color:#b200ff;
+     font-size:18px;
+     font-weight:bold;
+ }
+.done{
+    /*background-image: url(/images/check.png);*/
+    font-size: 80%;
+}
+.ayahMarkerBg{
+    background-color:blue;
+    height:10px;
+}
+div.mainRight {
+    background-color:#eee;
+    font-family: "Microsoft Sans Serif","Tahoma","Arial Unicode MS", "Arial", sans-serif;
+    font-size: 95%;
+    color: #999;
+    width: 12%; /**was 260px*/
+    height: 260px;
+    border: 2px solid #bbb;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.txtVerify_OLD{
+     font-size: 100%;
+     width:350px;height:40px;
+     direction:ltr;
+}
+
+.txtVerify{
+     font-size: 100%;
+     width:400px;height:60px;
+     direction:ltr;
+}
+.lnkSaveLocked {      
+    font-size: 80%;         
+    color: forestgreen;   
+}
+.lnkSaveOverwrite {      
+    font-size: 80%;
+    text-decoration: underline;
+    color: #0094ff; 
+    cursor: pointer;    
+}
+/* http://www.cssportal.com/css3-button-generator/ */
+.lnkSaveCorrection {
+  font-family: arial;
+  color: #FFFAF7 !important;
+  font-size: 18px;
+  text-shadow: 2px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 4px 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(top,  #63B8EE,  #468CCF);
+  background: -ms-linear-gradient(top,  #63B8EE,  #468CCF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#63B8EE), to(#468CCF));
+  background: -moz-linear-gradient(top,  #63B8EE,  #468CCF);
+  cursor: pointer;
+}
+.colorStar{
+    color:#ff6a00;    
+}
+
+.lnkSaveCorrection:hover {
+  color: #fff !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -ms-linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
+  background: -moz-linear-gradient(top,  #468CCF,  #63B8EE);
+}
+
+
+table tr td{
+    border:1px solid #ccc;
+    padding:0px;
+}
+table {
+   width:99%;
+}
+.verifymainLeft{
+    width:90% !important;
+}
+div.mywords {
+    background-color: #fff;
+    font-family: "Traditional Arabic", Tahoma, Arial;
+    font-weight: normal;
+    font-size: 220%;
+    direction: RTL;
+    /*zzwidth: 900px;*/
+    border: 2px solid #0094ff;
+    padding: 5px;
+    margin: 1px 0 0 50px;
+    word-wrap: break-word;
+    /*zzdisplay: block;
+    zzfloat: left;*/
+}
+div.mywords {
+    width: 90%;
+    font-size: 160%;
+
+}
+    div.mywords .hilite {
+        color:red;
+    }
+.pageNumerbs {
+     background-color: #ccc;
+    font-family:  Tahoma, Arial;
+    width:90%;
+    display: block;
+    font-size:130%;
+    text-align:center;
+    margin:10px 20px 10px 20px;
+    padding: 5px;
+    border: 2px solid #ccc;
+
+}
+.showAyah {
+     font-size: 120%; 
+
+}
+
+.mainRight .myProg {
+    color: #0094ff;
+    font-family: Arial;
+    font-size: 120%;
+    font-weight:bold;
+
+}
+.countTitle {
+    color: forestgreen;
+    font-family: Arial;
+    font-size: 90%;
+    font-weight:bold;
+}
+.rukumark {
+    color:#ff6a00;
+    font-size: 70%;
+}
+.juzmark {
+    width:98%;
+    border-top:2px solid #333;
+    border-bottom:2px solid #333;
+    text-align:center;
+    color:#666;
+    font-size: 90%;
+    margin:0;
+    padding:0;
+    line-height: 150%;
+
+}
+.suraName
+{
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
+    font-size: 70%;
+
+
+}
+#wordTypesLinks {
+    color: #666;
+    font-family: Arial;
+    font-size: 90%;
+    font-weight:bold;
+    margin-left:20px;
+    margin-top:15px;
+    background-color:#ccc;
+    padding:5px;
+
+}
+#wordTypesTitle {
+    color: #666;
+    font-family: Arial;
+    font-size: 110%;
+    font-weight:bold;
+    margin-left:20px;
+    margin-top:10px;
+    text-align:center;
+    width: 900px;
+}
+.shuffleLink {
+ font-size: 80%;
+ font-weight:normal;
+}
+div.mainLeft .ayahNum {
+    font-family: "Microsoft Sans Serif","Tahoma","Arial Unicode MS", "Arial", sans-serif;
+    color: forestgreen;
+    font-weight: normal;
+    font-size: 40%; /*was 80% before decorated ayahnum */
+    white-space: pre; 
+      
+    /*** decorated ayah num*/
+    background-image:url(/images/ayah.png) !important;
+    background-repeat:no-repeat !important;
+    background-position:center !important;
+    display: inline-block;
+    background-size: 100% 70%;
+    -webkit-background-size: 100% 70%; /*  Safari  */
+    -khtml-background-size: 100% 70%; /*  Konqueror  */
+    -moz-background-size: 100% 70%; /*  Firefox  */
+    width: 40px;
+    text-align:center;
+
+    /*zzcolor: #ff00dc
+    bellow is to make circle
+    border:2px solid #ccc;
+    border-radius: 50%;
+    width: 40px; 
+    display: inline-block;*/
+}
+.mushafAdjuster {
+    margin-left:100px !important;
+    width:760px !important;     
+    border:5px solid #ccc !important;  
+ 
+}
+.mushafPrinter {
+    margin-left:10px !important;
+    width:660px !important;
+    color: #333;
+    border:5px solid #ccc !important; 
+}
+ 
+.mushafPrinterPageNum {
+    margin-left:10px !important;
+    width:645px !important;
+    color: #333;
+    border:0px solid #ccc !important; 
+}
+ 
+.lineGap {
+    line-height: 60px;
+}
+
+/*.zzayahNumForMemo {
+    font-size: 40% !important;
+    background-image:url(/images/ayah.png) !important;
+    background-repeat:no-repeat !important;
+    background-position:center !important; 
+    display: inline-block;
+    background-size: 100% 70%;
+    -webkit-background-size: 100% 70%; / *  Safari  * /
+    -khtml-background-size: 100% 70%; / *  Konqueror  * /
+    -moz-background-size: 100% 70%; / *  Firefox  * /
+    width: 40px;
+    text-align:center;
+ background
+}*/
+
+.meanings {
+    display: block;
+}
+
+#dialog {
+    font: 14px arial;
+    color: black;
+    position: relative;
+    width: 285px;
+    height: 270px;
+    text-align: left;
+    line-height: 20px;
+    background-color: #fff;
+    border: 4px solid #666;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+    z-index: 6;
+    cursor: default;
+    padding:5px 5px 5px 10px;
+}
+
+#sectWord, #sectAyah {
+    margin-top: -7px;
+}
+/*.zzsectAyahMushaf
+{
+ 
+  width: 1385px !important;
+
+}*/
+/*** thanks to: http://www.ilikepixels.co.uk/drop/bubbler/ ***/
+#dialog:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 15px 15px;
+border-color: #FFFFFF transparent;
+/*filter:alpha(opacity=60); opacity:.6;*/
+
+display: block;
+width: 0;
+z-index: 7;
+top:-13px;
+left: 34px;
+}
+
+#dialog:before 
+{
+content: '';
+position: relative;
+border-style: solid;
+border-width: 0 18px 18px;
+border-color: #666 transparent;
+/*filter:alpha(opacity=60); opacity:.6;*/
+
+display: block;
+width: 0;
+z-index: 6;
+top: -23px;
+left:  20px;
+}
+
+#spSearch {
+    font-size: 110%;
+}
+#dialog #mean span, #dialog #lemma #arabWord{
+     font-size: 150%;
+}
+
+#diagHover {
+    font: 12px arial;
+    color: black;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #ddd;
+    border: 4px solid #666;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+    z-index: 5;
+    cursor: default;
+    padding-left:10px
+}
+
+.zzdiagHoverBn{
+     height: 60px!important;
+}
+ 
+.zzdiagHoverUr{
+     height: 100px!important;
+}
+.HoverFontBn { /* this is in SP_GetVersesWithUserVocab*/
+    font: 14px arial !important;
+    display:block;
+}
+.HoverFontUr { /* this is in SP_GetVersesWithUserVocab*/
+    font: 18px arial !important;
+    display:block;
+}
+.HoverBnEn { /* this is in SP_GetVersesWithUserVocab*/
+    font: 12px arial !important;
+    display:block;
+}
+.moreAyat,.moreAyatHide {
+      text-decoration: underline;
+    color: #0094ff;
+    cursor: pointer;
+      font-size: 75%;
+}
+.actionlink {
+    /*zztext-decoration: underline;*/
+    color: #0094ff;
+    cursor: pointer;
+    width: 120px;
+}
+.actionlink:hover {
+    text-decoration: underline;
+    color: #0094ff;
+    
+}
+#saveGeneralNote {
+    font-size:medium;
+}
+#saveLemmaNote, #saveAyahNote, #saveGeneralNote {
+    text-decoration: underline;
+    color: #0094ff; 
+    cursor: pointer;
+
+}
+.actionlinkMore {
+    text-decoration: underline;
+    color: #333;
+    cursor: pointer;
+    width: 180px;
+}
+
+.hrMain {
+    height:3px;
+    background-color:#b200ff;
+}
+.lemmaAyah {
+    color: #666;
+}
+/**unmarked**/
+.wordstate0 {
+    color: #666;
+}
+
+/**known word**/
+.wordstate1 {
+    color:#0094ff;
+}
+
+/**underlined word**/
+.wordstate2 {
+    color: #666;
+    text-decoration: underline;
+    background-color: #ddd;
+}
+ 
+/**hilited word**/
+.wordstate3  {
+    background-color: yellow;
+    color: #666;
+}
+
+/**boxed word**/
+.wordstate4  {
+    background-color: #c0faf3;
+    border:1px solid #ff006e ;
+    color: #666;   
+}
+
+.HasWordNote {
+    border-top:2px forestgreen dashed;
+    /*background-image: url(../smallPic30x30.jpg); */
+}
+ /** memo ayah*/
+.wordstate11 {
+    border-radius: 50%;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+
+    background-color:#c8fa9b;
+    border:1px solid #ccc;
+    color: #666; 
+}
+
+/**grammar check ayah**/
+.wordstate12 { 
+    border-radius: 50%;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    background: #ccc;
+    color: #000;
+
+
+     /*background-color:#ccc;
+     color: #666;
+     border-radius:50%;
+ 
+    text-decoration: underline;*/
+}
+
+
+/**hilited ayah**/
+.wordstate13  {
+    border-radius: 50%;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    background-color: yellow;
+    border:1px solid #ccc;
+    color: #666;
+}
+
+
+/**boxed ayah**/
+ .wordstate14  {
+    border-radius: 50%;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    background-color: #c0faf3;
+    border:1px solid #ccc;     
+    color: #666;
+}
+
+#re-login-div {
+    position:absolute;
+    top:70%;
+    left:40%;
+    border:3px solid #999;
+    background-color: #fff;
+    z-index:5;
+    padding: 0px 10px 10px 10px;
+}
+ 
+.fadeMe {
+    opacity: 0.2;
+    filter: alpha(opacity = 10); 
+    background-color:#000;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.sprited {
+    background: url(closex.gif) no-repeat;
+    line-height: 1000px;
+    overflow: hidden;
+    display: block;
+}
+
+
+.averageFont {
+    font-size: 50%;
+}
+#close_x {
+    width: 24px;
+    height: 23px;
+    overflow: hidden;
+    line-height: 1000px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-position: 0px 0px;
+}
+
+.required {
+    color:#ff6a00;
+}
+.optional {
+    color:forestgreen;
+}
+.createFailed {
+    color:red;
+    font-family:Arial,  sans-serif;
+    font-size:120%;
+}
+.createSuccess {
+    color:#209661;
+    font-family:Arial,  sans-serif;
+    font-size:120%;
+}
+#spNextVerses {
+    color: #fff;
+    font-size:140%;
+}
+
+.spNextPrevLinks {
+    color: #fff;
+    font-size:140%;
+}
+
+
+
+.msaWord {
+     font-family:Arial,  sans-serif;
+    font-size:110%;
+    direction:ltr
+}
+
+.msaMeaning {
+     font-family:Arial,  sans-serif;
+    font-size:70%;
+    direction:ltr;
+    color:#333;
+        
+}
+
+.myWordsLex {
+     font-family:Arial,  sans-serif;
+    font-size:50%;
+    direction:ltr
+}
+
+.myWordList {
+     color: forestgreen;
+     font-family:Arial,  sans-serif;
+    font-size:130%;
+    /*zzdirection:ltr*/
+
+}

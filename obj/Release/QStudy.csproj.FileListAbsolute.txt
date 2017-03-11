@@ -1,0 +1,16 @@
+E:\my\web\QStudy\bin\QuranStudy.dll
+E:\my\web\QStudy\bin\QuranStudy.pdb
+E:\my\web\QStudy\bin\Facebook.dll
+E:\my\web\QStudy\bin\Facebook.xml
+E:\my\web\QStudy\obj\Release\QuranStudy.dll
+E:\my\web\QStudy\obj\Release\QuranStudy.pdb
+E:\my\web\QStudy\obj\Release\QStudy.csprojResolveAssemblyReference.cache
+D:\my\web\QStudy\bin\QuranStudy.dll.config
+D:\my\web\QStudy\bin\QuranStudy.dll
+D:\my\web\QStudy\bin\QuranStudy.pdb
+D:\my\web\QStudy\bin\Facebook.dll
+D:\my\web\QStudy\bin\Facebook.xml
+D:\my\web\QStudy\obj\Release\QuranStudy.dll
+D:\my\web\QStudy\obj\Release\QuranStudy.pdb
+D:\my\web\QStudy\obj\Release\QStudy.csprojResolveAssemblyReference.cache
+E:\my\web\QStudy\bin\QuranStudy.dll.config
