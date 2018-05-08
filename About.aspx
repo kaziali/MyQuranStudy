@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Study Quran, learn word for word meanings, track progress</title>
+    <title>Study Quran, learn word for word meanings, track your progress</title>
     <meta name="keywords" content="quran, quran learning, online quran learning, learn quran online, quran word for word, quran word by word, quran meaning, quran study, my quran, learn quran, quran english, quran words, koran, coran, qur'an, Arabic roots" />
     <meta name="description" content="Study Quran, learn meaning of each word, underline and highlight words - track your progress." />
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
